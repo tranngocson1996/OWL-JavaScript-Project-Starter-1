@@ -8,7 +8,7 @@ export const ROUTES = [
   { name: "REGISTER", path: "/register", component: Register },
   { name: "SETTINGS", path: "/settings", component: Settings },
   { name: "EDITOR", path: "/editor", component: Editor },
-  { name: "PROFILE", path: "/profile/@{{username}}", component: Profile },
+  { name: "PROFILE", path: "/profile", component: Profile },
 ];
 
 async function makeEnvironment() {
